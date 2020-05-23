@@ -1,9 +1,9 @@
 ## Recommendation System for MoviesLens Dataset
-
-#### There are four tasks which are covered in this repository:
-1.	To create a recommender system using ratings.csv file. 
-2.	To display the predicted rating for a particular userID and MovieID combinations (both taken as keyboard input)
-3.	Recommend a user to watch top 10 movies, which has not been watched as yet (as per his rating predictions). Fix the threshold rating as 2.5
-4.	Display the MovieID, IMDB ID, Average User Rating (excluding predicted ratings), genres and tag of all the movies found in Step 3 as a data    frame
-
-Refer About Dataset document for details regarding Dataset
+ 
+ #### Various recommendation approaches have been used: 
+ 
+A. Based on Cosine Similarity, recommends highly rated movies
+B. Based on an Actor's Name, the algorithm recommends movies based on highest average audience rating
+C. Given user-id as input, the algorithm finds out the favourite lead actor of the user and recommends movies
+D. Based on Director's Name, movies directed by the Director are recommended based on audience rating
+E. Based on Favourite Director of a user
